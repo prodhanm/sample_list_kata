@@ -11,7 +11,7 @@ sample_list = [
     339, 882, 848, 179, 535, 940, 472
 ]
 
-# 1. print("Elements and count of sample_list:")
+print("1. Elements and count of sample_list:")
 sample_count = 0
 for sample in sample_list:
     counter = sample_list.count(sample)
@@ -19,7 +19,7 @@ for sample in sample_list:
     print(sample)
 print(f" There are {sample_count} numbers.")
 
-# 2. print("Even elements and their count:")
+print("2. Even elements and their count:")
 even_count = 0
 for sample in sample_list:
     if sample%2 == 0:
@@ -28,7 +28,7 @@ for sample in sample_list:
         print(sample)
 print(f"There are {even_count} even numbers.")
 
-# 3. print("Odd elements and their count:")
+print("3. Odd elements and their count:")
 odd_count = 0
 for sample in sample_list:
     if sample%2 == 1:
@@ -37,19 +37,19 @@ for sample in sample_list:
         print(sample)
 print(f"There are {odd_count} odd numbers.")
 
-# 4. print("Squares of elements of sample_list:")
+print("4. Squares of elements of sample_list:")
 for sample in sample_list:
     square_sample = pow(sample, 2)
     print(square_sample)
 
-# 5. print("Sum of elements of sample_list:")
+print("5. Sum of elements of sample_list:")
 total = sum(sample_list)
 print(f"The total of the sample list is {total}")
 
-# 6. print("Smallest (min) element of sample_list:")
+print("6. Smallest (min) element of sample_list:")
 min_sample = min(sample_list)
 print(f"The minimum sample is {min_sample}.")
 
-# 7. print("Largest (max) element of sample_list:")
+print("7. Largest (max) element of sample_list:")
 max_sample = max(sample_list)
 print(f"The maximum sample number is {max_sample}.")
