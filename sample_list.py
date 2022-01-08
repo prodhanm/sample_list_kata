@@ -12,12 +12,10 @@ sample_list = [
 ]
 
 print("1. Elements and count of sample_list:")
-sample_count = 0
 for sample in sample_list:
-    counter = sample_list.count(sample)
-    sample_count += counter
     print(sample)
-print(f" There are {sample_count} numbers.")
+    sample_len = len(sample_list)
+print(f" There are {sample_len} numbers.")
 
 print("2. Even elements and their count:")
 even_count = 0
